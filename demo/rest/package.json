@@ -1,0 +1,25 @@
+{
+  "name": "apollo-server-dogs-with-dogceo-api",
+  "description": "Server for the Apollo Client getting started demo",
+  "dependencies": {
+    "apollo-datasource-rest": "latest",
+    "apollo-server": "2.1.0",
+    "graphql": "14.0.2",
+    "lodash": "4.17.11",
+    "node-fetch": "2.3.0",
+    "shorthash": "0.0.2",
+    "lru-cache": "4.1.2",
+    "shortid": "2.2.8"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000",
+    "mutation": "nodemon mutation.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  }
+}
