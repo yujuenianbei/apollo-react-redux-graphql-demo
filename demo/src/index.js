@@ -17,7 +17,7 @@ import ApolloClient from "apollo-boost";
 // 默认情况客户端会发送到相同主机名(域名)下的/graphql端点
 const client = new ApolloClient({
     // uri: 'https://48p1r2roz4.sse.codesandbox.io'
-    uri: 'http://localhost:4000'
+    uri: 'http://localhost:4001'
 });
 
 const App = () => (
